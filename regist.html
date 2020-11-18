@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/Reset.css">
+    <link rel="stylesheet" href="./CSS/public.css">
+    <link rel="stylesheet" href="./CSS/regist.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="header clear-fix">
+            <div class="logo">
+                <img src="./img/logonew.png" alt="" width="132px" height="52">
+            </div>
+            <ul class="clear-fix">
+              <li><a href="#">首页</a></li>  
+              <li><a href="#">酷玩</a></li>  
+              <li><a href="#">导购</a></li>  
+              <li><a href="#">试用</a></li>  
+              <li><a href="#">报告</a></li>  
+            </ul>
+            <div class="search">
+                <img src="./img/search.png" alt="">
+                <a href="#">注册</a>
+                <!-- <span id="logon">登录</span> -->
+            </div>
+        </div>
+    </header>
+
+    <!-- <div class="logon clear-fix">
+        <p>账号登录</p>
+        <form action="">
+            <input type="text" placeholder="请输入手机号">
+            <input type="password" placeholder="请输入密码">
+            <a href="#">注册新账号</a>
+            <button class="logon-logon">登录</button>
+        </form>
+    </div> -->
+
+    <main>
+        <div class="_main clear-fix">
+            <div class="_content">
+                <p class="_c_title">注册极果</p>
+            <form action="">
+                <input type="text" placeholder="请输入手机号" id="phone"  pattern="^1[3578]\d{9}$"/><span>输入错误</span>
+                <input type="text" placeholder="请输入图片验证码" id="img-verify"><img src="./img/imgCode.jpg" alt=""><span>输入错误</span>
+                <input type="text" placeholder="请输入四位数字验证码" id="verify"><button id="gain" onclick="send()" >获取验证码</button><span>输入错误</span>
+                <input type="text" placeholder="请输入用户名" id="user"><span>输入错误</span>
+                <input type="text" placeholder="请输入新密码" id="pwd"><span>输入错误</span>
+                <input type="text" placeholder="确认新密码" id="repwd"><span>输入错误</span>
+                <button id="regist">立即注册</button>
+            </form>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- 底部 -->
+    <footer class="footer clear-fix">
+        <div class="foot">
+            <div class="f-icon"> <img src="./img/code.png" alt=""><img src="./img/logoImg.jpg" alt="">
+                <div class="f-text">
+                    <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+                    <p>微信添加“jiguo”获取我们的服务。</p>
+                </div>
+            </div>
+            <ul class="f-content">
+                <li>
+                    <p><a href=""> 免费试用</a></p>
+                    <p> <a href="">
+                    试用流程
+                 </a></p>
+                    <p> <a href="">
+                    如何提高成功率
+                    </a>
+                    </p>
+                </li>
+                <li>
+                    <p> <a href="">
+                友情链接
+                </a></p>
+                    <p>
+                        <a href="">智东西</a>
+                        <a href="">WEIBUSI</a>
+                    </p>
+                    <p>
+                        <a href="">搜狐IT</a>
+                        <a href="">腾讯科技</a>
+                    </p>
+                    <p>
+                        <a href="">搜狐数码</a>
+                        <a href="">凤凰科技</a>
+                    </p>
+                    <p>
+                        <a href="">凤凰数码</a>
+                        <a href="">PConline</a>
+                    </p>
+                    <p>
+                        <a href="">泡泡网</a>
+                        <a href="">3W咖啡</a>
+                    </p>
+                    <p>
+                        <a href="">
+                            <a href=""></a>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">极客公园</a>
+                        <a href="">易迅易启玩</a>
+                    </p>
+                    <p>
+                        <a href="">果库</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="">购买攻略</a>
+                    </p>
+                    <p>
+                        <a href="">美亚海淘教程</a>
+                    </p>
+                    <p>
+                        <a href="">日亚海淘教程</a>
+                    </p>
+                    <p>
+                        <a href="">海淘转运攻略</a>
+                    </p>
+                    <p>
+                        <a href="">kickstarter </a>
+                        <a href="">众筹购买攻略</a>
+                    </p>
+                    <p>
+                        <a href="">indiegogo</a>
+                        <a href="">众筹购买攻略</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="">厂商合作</a>
+                    </p>
+                    <p>
+                        <a href="">关于极果</a>
+                    </p>
+                    <p>
+                        <a href="">联系我们</a>
+                    </p>
+                    <p>
+                        <a href="">商务合作：BD@jiguo.com</a>
+                    </p>
+                    <p>
+                        <a href="">CEO邮箱：CEO@jiguo.com</a>
+                    </p>
+                </li>
+            </ul>
+            <div class="f-last">@2016 极果版权所有</div>
+        </div>
+    </footer>
+
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./JS/_regist.js"></script>
+</body>
+</html>

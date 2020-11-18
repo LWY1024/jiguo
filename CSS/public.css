@@ -1,0 +1,111 @@
+header {
+  border-bottom: 1px solid #d0d0d0;
+  height: 75px;
+  width: 100%;
+  background-color: #ffffff;
+}
+header .header {
+  width: 1000px;
+  height: 75px;
+  line-height: 75px;
+  margin: 0 auto;
+}
+header .header .logo {
+  float: left;
+}
+header .header .logo img {
+  vertical-align: middle;
+}
+header .header ul {
+  margin-left: 64px;
+  float: left;
+}
+header .header ul li {
+  float: left;
+  font-size: 18px;
+  color: black;
+  margin-right: 50px;
+}
+header .header ul li .index {
+  color: red;
+}
+header .header .search {
+  float: right;
+}
+header .header .search img {
+  vertical-align: middle;
+  margin-right: 33px;
+}
+header .header .search a {
+  border: 1px solid red;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: red;
+}
+.footer {
+  background-color: #505050;
+}
+.foot {
+  width: 1000px;
+  margin: 0 auto;
+  height: 360px;
+  padding-top: 40px;
+  position: relative;
+  color: gray;
+}
+.footer a {
+  color: gray;
+}
+.f-icon {
+  float: left;
+  position: relative;
+  margin-left: 20px;
+}
+.f-icon > img:nth-child(1) {
+  width: 160px;
+  height: 160px;
+  margin-left: -20px;
+}
+.f-icon > img:nth-child(2) {
+  position: absolute;
+  top: 0px;
+  left: 160px;
+  margin-bottom: 20px;
+}
+.f-text {
+  position: absolute;
+  top: 60px;
+  left: 160px;
+  font-size: 11px;
+  width: 120px;
+}
+.f-text > p:nth-child(2) {
+  margin-top: 10px;
+}
+.f-content {
+  float: right;
+  position: absolute;
+  top: 40px;
+  left: 350px;
+}
+.f-content > li {
+  float: left;
+  font-size: 12px;
+  margin-right: 40px;
+}
+.f-content > li > p:nth-child(1) {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.f-content > li > p:nth-child(1) > a {
+  color: white;
+}
+.f-content > li > p {
+  margin-top: 5px;
+}
+.f-last {
+  position: absolute;
+  bottom: 20px;
+  left: 436px;
+  font-size: 12px;
+}
