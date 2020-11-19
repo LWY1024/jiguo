@@ -9,7 +9,7 @@ $(function(){
 function inHtml(date){
     var dot_tem = doT.template($('#list_template').text());
     $('.bottom-master ul').html(dot_tem(date));
-    console.log(date)
+    console.log(date);
 }
 
 
@@ -24,7 +24,7 @@ $('#logins').on('click',function(){
     function inHtml(date){
            $('#logins').html('没有更多了');
            var dot_tems = doT.template($('#list_template').text());
-           $('.bottom-master #lists').html(dot_tems(date));
+           $('.bottom-master #list-s').html(dot_tems(date));
            console.log(date)
        }
 });
