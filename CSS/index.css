@@ -121,6 +121,22 @@ header .header .search img:hover {
   margin-top: 10px;
   border-radius: 20px;
   color: white;
+  display: block;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+}
+#cha{
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  text-align: center;
+  border: 1px solid #999999;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #999999;
+  line-height: 20px;
 }
 
 

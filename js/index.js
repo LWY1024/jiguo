@@ -44,8 +44,8 @@ $('#logon').on('click',function(){
     $('.logon').css('display','block');
 });
 
-$('.logon').on('mouseleave',function(){
-    $(this).css('display','none');
+$('#cha').on('click',function(){
+    $('.logon').css('display','none');
 });
 
 
@@ -61,3 +61,25 @@ skip_.onclick=function(){
     // skip_.style.display ='none';
 }
 
+
+$('.logon-logon').on('click',function(){
+    var user = $('input[type=text]').val();
+    var pwd = $('input[type=password]').val();
+    $.ajax({
+        type:"post",
+        url:"http://192.168.1.64:3000/users/login",
+        data:{
+            username:user,
+            password:pwd,
+        },
+        success:function(res){
+            console.log(res);
+            if(res.msg=='登录成功！'){
+               $('.logon').css('display','none'); 
+            }else{
+                alert(res.msg);
+            }
+        },
+        dataType:'json',
+    })
+});
