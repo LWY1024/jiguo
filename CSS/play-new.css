@@ -1,3 +1,14 @@
+@keyframes opac {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .title_ {
   margin-top: 50px;
 }
@@ -89,6 +100,10 @@ main .content_ #list li div span img {
   vertical-align: middle;
   position: relative;
   top: 4px;
+}
+main .content_ ul li:hover,
+main .content_ #list li:hover {
+  animation: opac 2s linear infinite;
 }
 main .jia_ {
   padding-top: 60px;
