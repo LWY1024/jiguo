@@ -1,3 +1,14 @@
+@keyframes opac {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .title_ {
   margin-top: 50px;
 }
@@ -43,6 +54,9 @@ main .content_ ul li {
 main .content_ ul li div img {
   width: 100%;
   border-radius: 5px;
+}
+main .content_ ul li div img:hover {
+  animation: opac 2s linear infinite;
 }
 main .content_ ul li p {
   font-size: 14px;
