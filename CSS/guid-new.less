@@ -1,3 +1,15 @@
+
+@keyframes opac{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
 .title_{
     margin-top: 50px;
     p{
@@ -46,6 +58,9 @@ main{
                     img{
                         width: 100%;
                         border-radius: 5px;
+                        &:hover{
+                            animation: opac 2s linear infinite;
+                        }
                     }
                 }
                 p{
