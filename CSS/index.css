@@ -76,10 +76,13 @@ header .header .search img:hover {
   margin: 0 auto;
   border-radius: 10px;
   display: none;
-  position: absolute;
+  /* position: absolute; */
+  position: fixed;
   top: 200px;
   left: 50%;
   transform: translate(-50%);
+  
+ 
   z-index: 99999;
   border-bottom: 3px solid #f65543;
   box-shadow: 3px 3px 5px 1px #afaeae;
