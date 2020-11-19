@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../CSS/public.css">
+    <link rel="stylesheet" href="./../CSS/reset.css">
+    <link rel="stylesheet" href="./../CSS/use-over.css">
+    <script src="./../js/doT.min.js"></script>
+    <script src="./../js/jquery-3.5.1.min.js"></script>
+    
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="header clear-fix">
+            <div class="logo">
+                <img src="./../img/logonew.png" alt="" width="132px" height="52">
+            </div>
+            <ul class="clear-fix">
+              <li><a href="./../index.html">首页</a></li>  
+              <li><a href="./../play/play-new.html">酷玩</a></li>  
+              <li><a href="./../guid/guid-new.html">导购</a></li>  
+              <li><a href="./use-pro.html" class="index">试用</a></li>  
+              <li><a href="./../report/report_new.html">报告</a></li>  
+            </ul>
+            <div class="search">
+                <img src="./../img/search.png" alt="">
+                <a href="./../regist.html">注册</a>
+            </div>
+        </div>
+    </header>
+    <!-- 免费试用 -->
+    <p class="title-p">免费试用</p>
+    <section class="tab-a">
+        <a href="use-pro.html" class="a-hover">大众试用</a>
+        <a href="use-joney.html">体验师专享</a>
+    </section>
+    <!-- <script></script> -->
+    <!-- 主体 -->
+    <div class="main clear-fix">
+        <div class="main-top clear-fix">
+            <ul class="ul-list clear-fix">
+                <li><a href="use-pro.html" >全部</a></li>
+                <li><a href="use-plase.html">申请中</a></li>
+                <li><a href="use-useing.html">试用中</a></li>
+                <li><a href="use-over.html"  class="a-xuan">已结束</a></li>
+            </ul>
+        </div>
+        <div class="main-bottom clear-fix">
+            <div class="bottom-master">
+                <ul class="box" id="list">
+                    <li>
+                        <div class="imgs">
+                            <img src="./../img/hot5.jpg" width="220px" height="130px" >
+                        </div>
+                        <div class="images"></div>
+                    </li>
+                    <!-- <div class="wenzi clear-fix">
+                        <p class="p-one">巴慕达 The Toaster烤面包机</p>
+                        <p class="p-two">
+                            <span>2032</span>
+                            <span>20台</span>
+                        </p>
+                        <p class="p-three"><span>1392</span>申请</p>
+                        <p class="p-four">报告数量:8</p>
+                    </div> -->
+                </ul>
+                <div class="jiazai">没有更多啦~</div>
+            </div>
+            <script id="list_template" type="text/x-dot-template">
+                {{~ it:value:index}}
+                
+                <li>
+                    <div class="imgs"><img src= {{=value.img}}></div>
+                    <div class="images"><img src= {{=value.img}}></div>
+                    <div class="wenzi">
+                        <p class="p-one">{{=value.text}}</p>
+                    </div>
+                    <div class="xuanran">
+                        <p class="p-two">
+                            <span>{{=value.totalnum}}</span>
+                            <span>{{=value.num}}台</span>
+                        </p>
+                        <p class="p-three"><span>{{=value.apply}}</span>申请</p>
+                        <p class="p-four">报告数量:8</p>
+                    </div>
+                </li>
+                
+                {{~}}
+                </script>
+                <!-- <script>
+                    $(function(){
+                            $.ajax({
+                                url:'http://192.168.1.64:3000/useing/public',
+                                success:function(res){
+                                    inHtml(res);
+                                }
+                            });
+                        });
+                        function inHtml(date){
+                            var dot_tem = doT.template($('#list_template').text());
+                            $('.bottom-master ul').html(dot_tem(date));
+                            console.log(date)
+                        }
+                </script> -->
+                <script src="./../js/use-public.js"></script>
+        </div>
+    </div>
+    
+    <!-- 底部 -->
+    <footer class="footer clear-fix">
+        <div class="foot">
+            <div class="f-icon"> <img src="./../img/code.png" alt=""><img src="./../img/logoImg.jpg" alt="">
+                <div class="f-text">
+                    <p>全球酷玩试用导购平台酷·新奇·好玩·品质</p>
+                    <p>微信添加“jiguo”获取我们的服务。</p>
+                </div>
+            </div>
+            <ul class="f-content">
+                <li>
+                    <p><a href="./use-free.html"> 免费试用</a></p>
+                    <p> <a href="">
+                    试用流程
+                 </a></p>
+                    <p> <a href="">
+                    如何提高成功率
+                    </a>
+                    </p>
+                </li>
+                <li>
+                    <p> <a href="">
+                友情链接
+                </a></p>
+                    <p>
+                        <a href="">智东西</a>
+                        <a href="">WEIBUSI</a>
+                    </p>
+                    <p>
+                        <a href="">搜狐IT</a>
+                        <a href="">腾讯科技</a>
+                    </p>
+                    <p>
+                        <a href="">搜狐数码</a>
+                        <a href="">凤凰科技</a>
+                    </p>
+                    <p>
+                        <a href="">凤凰数码</a>
+                        <a href="">PConline</a>
+                    </p>
+                    <p>
+                        <a href="">泡泡网</a>
+                        <a href="">3W咖啡</a>
+                    </p>
+                    <p>
+                        <a href="">
+                            <a href=""></a>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="">极客公园</a>
+                        <a href="">易迅易启玩</a>
+                    </p>
+                    <p>
+                        <a href="">果库</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="">购买攻略</a>
+                    </p>
+                    <p>
+                        <a href="">美亚海淘教程</a>
+                    </p>
+                    <p>
+                        <a href="">日亚海淘教程</a>
+                    </p>
+                    <p>
+                        <a href="">海淘转运攻略</a>
+                    </p>
+                    <p>
+                        <a href="">kickstarter </a>
+                        <a href="">众筹购买攻略</a>
+                    </p>
+                    <p>
+                        <a href="">indiegogo</a>
+                        <a href="">众筹购买攻略</a>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <a href="./use-copertion.html">厂商合作</a>
+                    </p>
+                    <p>
+                        <a href="">关于极果</a>
+                    </p>
+                    <p>
+                        <a href="">联系我们</a>
+                    </p>
+                    <p>
+                        <a href="">商务合作：BD@jiguo.com</a>
+                    </p>
+                    <p>
+                        <a href="">CEO邮箱：CEO@jiguo.com</a>
+                    </p>
+                </li>
+            </ul>
+            <div class="f-last">@2016 极果版权所有</div>
+        </div>
+    </footer>
+</body>
+
+</html>

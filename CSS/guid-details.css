@@ -1,0 +1,146 @@
+.main_ .main_box {
+  width: 1000px;
+  margin: 0 auto;
+}
+.main_ .main_box .main_t {
+  padding-top: 20px;
+}
+.main_ .main_box .main_t span {
+  font-size: 12px;
+  color: #999999;
+}
+.main_ .main_box .content_box {
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.main_ .main_box .content_box .con_left {
+  width: 702px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  float: left;
+}
+.main_ .main_box .content_box .con_left .left_title {
+  height: 126px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.main_ .main_box .content_box .con_left .left_title p {
+  padding-top: 33px;
+  padding-left: 25px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.main_ .main_box .content_box .con_left .left_title .img_ {
+  padding-left: 25px;
+  float: left;
+  padding-right: 5px;
+}
+.main_ .main_box .content_box .con_left .left_title .img_ img {
+  border-radius: 10px;
+}
+.main_ .main_box .content_box .con_left .left_title .su_ {
+  float: left;
+  font-size: 12px;
+  color: #999999;
+}
+.main_ .main_box .content_box .con_left .left_title .time_ {
+  float: right;
+  padding-right: 25px;
+  font-size: 12px;
+  color: #999999;
+}
+.main_ .main_box .content_box .con_left .con_txt {
+  padding-top: 25px;
+}
+.main_ .main_box .content_box .con_left .con_txt .pen_ {
+  padding-left: 25px;
+  font-size: 14px;
+  margin-right: 25px;
+}
+.main_ .main_box .content_box .con_left .con_txt .one_ .one_ti {
+  text-align: center;
+  font-weight: bold;
+}
+.main_ .main_box .content_box .con_left .con_txt .one_ .one_txt {
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 24px;
+  font-size: 14px;
+}
+.main_ .main_box .content_box .con_left .con_txt .one_ .one_img {
+  padding-top: 28px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.main_ .main_box .content_box .con_left .con_txt .one_ .two_ti {
+  padding-top: 25px;
+}
+.main_ .main_box .content_box .con_left .con_txt .one_ .two_txt {
+  padding-top: 15px;
+}
+.main_ .main_box .content_box .con_left .con_txt .one_ .one_title {
+  text-align: left;
+  margin-left: 27px;
+}
+.main_ .main_box .content_box .con_left .con_buttom {
+  padding-top: 35px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+.main_ .main_box .content_box .con_left .con_buttom p {
+  font-size: 14px;
+  line-height: 24px;
+  color: gray;
+}
+.main_ .main_box .content_box .con_right {
+  float: left;
+  height: 112px;
+  width: 270px;
+  border: 1px solid #e0e0e0;
+  margin-left: 26px;
+  border-radius: 5px;
+}
+.main_ .main_box .content_box .con_right .like_ {
+  float: left;
+  width: 135px;
+  height: 112px;
+  border-right: 1px solid #e0e0e0;
+  position: relative;
+  background: url(../img/xinRedo.png) no-repeat 50px 32px;
+}
+.main_ .main_box .content_box .con_right .like_:hover {
+  background: url(../img/xinRedh.png) no-repeat 50px 32px;
+}
+.main_ .main_box .content_box .con_right .like_ span {
+  position: absolute;
+  top: 65px;
+  left: 40px;
+  color: gray;
+  font-size: 14px;
+}
+.main_ .main_box .content_box .con_right .share_ {
+  float: left;
+  width: 134px;
+  height: 112px;
+  position: relative;
+  background: url(../img/share_yj1.png) no-repeat 55px 35px;
+}
+.main_ .main_box .content_box .con_right .share_ span {
+  position: absolute;
+  top: 65px;
+  left: 52px;
+  color: gray;
+  font-size: 14px;
+}
+.main_ .main_box .content_box .con_right .share_ .sh_ {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  display: none;
+}
+.main_ .main_box .content_box .con_right .share_:hover {
+  background: url(../img/shareh_yj1.png) no-repeat 55px 35px;
+}
+.main_ .main_box .content_box .con_right .share_:hover .sh_ {
+  display: block;
+}

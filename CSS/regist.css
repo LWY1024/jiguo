@@ -1,0 +1,132 @@
+body {
+  position: relative;
+}
+main {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+main ._main {
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  width: 1000px;
+}
+main ._main ._content {
+  height: 780px;
+  width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  float: left;
+}
+main ._main ._content ._c_title {
+  margin-top: 25px;
+  border-left: 6px solid #f65543;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-bottom: 75px;
+}
+main ._main form {
+  width: 500px;
+  margin: 0 auto;
+}
+main ._main form input {
+  width: 400px;
+  height: 45px;
+  text-indent: 10px;
+  outline: none;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #efefef;
+  margin-bottom: 25px;
+}
+main ._main form #img-verify,
+main ._main form #verify {
+  width: 243px;
+}
+main ._main form img {
+  vertical-align: middle;
+  margin-left: 25px;
+  margin-right: 7px;
+}
+main ._main form button {
+  width: 130px;
+  height: 45px;
+  border: 1px solid #efefef;
+  margin-left: 25px;
+  background-color: white;
+  font-size: 17px;
+  border-radius: 10px;
+  color: #a3a3a3;
+  outline: none;
+}
+main ._main form #regist {
+  display: block;
+  width: 400px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  background-color: #fe5341;
+  border: none;
+  border-radius: 10px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+main ._main span {
+  margin-left: 10px;
+  display: none;
+  color: red;
+}
+.logon {
+  width: 450px;
+  height: 330px;
+  background-color: #dad1d1;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.logon p {
+  border-left: 6px solid #f65543;
+  font-size: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.logon form {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+.logon form input {
+  width: 300px;
+  height: 45px;
+  text-indent: 10px;
+  outline: none;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #efefef;
+  margin-bottom: 25px;
+}
+.logon form a {
+  font-size: 14px;
+  color: #817f7f;
+  margin-left: 10px;
+}
+.logon form .logon-logon {
+  width: 300px;
+  height: 45px;
+  background-color: #fe5341;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  border-radius: 20px;
+  color: white;
+}

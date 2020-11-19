@@ -1,0 +1,81 @@
+.main {
+  width: 100%;
+}
+.main a {
+  color: #5D5F5E;
+}
+.main .main-shang {
+  width: 1000px;
+  margin: 50px auto;
+  height: auto;
+}
+.main .main-shang .shang-left {
+  float: left;
+  width: 270px;
+  height: 320px;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+}
+.main .main-shang .shang-left dt {
+  margin-left: 37px;
+  padding: 10px 0;
+  font-weight: 400;
+  color: #433F3C;
+}
+.main .main-shang .shang-left dd {
+  margin-left: 54px;
+  font-size: 14px;
+  color: #5D5F5E;
+  padding-bottom: 8px ;
+}
+.main .main-shang .help {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 0;
+  margin: 20px 10px;
+  color: #363D43;
+  width: 230px;
+  text-indent: 17px;
+  border-bottom: 1px solid #A3A3A3;
+}
+.main .main-shang .shang-right {
+  float: left;
+  margin-left: 30px;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+  width: 700px;
+  height: auto;
+  padding-bottom: 30px;
+}
+.main .main-shang .shang-right .cooper {
+  width: 636px;
+  text-indent: 0;
+  margin: 20px 30px;
+}
+.main .main-shang .shang-right p {
+  margin-left: 32px;
+  width: 640px;
+}
+.main .main-shang .shang-right .cop-pone {
+  color: #433F3C;
+  padding: 10px 0;
+}
+.main .main-shang .shang-right .cop-pone a {
+  color: #433F3C;
+}
+.main .main-shang .shang-right .cop-ptwo {
+  font-size: 14px;
+  color: #5D5F5E;
+  padding-bottom: 20px;
+}
+.main .main-shang .shang-right dt {
+  font-size: 20px;
+  font-weight: 600;
+  color: #363D43;
+  margin: 20px 30px;
+}
+.main .main-shang .shang-right dd {
+  margin-left: 60px;
+  font-size: 14px;
+  color: #5D5F5E;
+}
