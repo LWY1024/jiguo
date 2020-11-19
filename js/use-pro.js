@@ -29,7 +29,9 @@ function inHtml(date){
     console.log(date)
 }
 
-
+$('.bottom-master li').on('click',function(){
+    window.location.href = './use-dateil.html';
+});
 
 // var login = document.getElementById('logins');
 // // console.log(login);
